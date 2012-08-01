@@ -27,8 +27,8 @@ import org.codehaus.groovy.grails.commons.GrailsDomainClass
 import net.lucasward.grails.plugin.RevisionsOfEntityQueryMethod
 
 class EnversGrailsPlugin {
-    // the plugin version
-    def version = "0.1.6"
+    // the plugin version^^                           ^
+    def version = "0.1.8"
     // the version or versions of Grails the plugin is designed for
     def grailsVersion = "1.3.6 > *"
     // the other plugins this plugin depends on

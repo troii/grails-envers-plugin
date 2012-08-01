@@ -24,11 +24,11 @@ grails.project.dependency.resolution = {
 		grailsPlugins()
 		grailsHome()
 		grailsCentral()
-        mavenRepo "https://repository.jboss.org/nexus/content/groups/public-jboss/"
+        mavenCentral()
 	}
 
 	dependencies {
-		compile ('org.jboss.envers:jboss-envers:1.2.3-hibernate-3.3') {
+        compile('org.hibernate:hibernate-envers:3.6.10.Final') {
             transitive = false
         }
 	}
